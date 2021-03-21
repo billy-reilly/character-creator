@@ -1,7 +1,4 @@
 .controlPane {
-  padding: 24px;
-  /* Optical centering */
-  padding-top: 18px;
   background-color: white;
   border-radius: 8px;
   /*
@@ -10,6 +7,12 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+}
+
+.controlPaneHeader {
+  padding: 24px;
+  /* Optical centering */
+  padding-top: 18px;
 }
 
 .title {
@@ -23,4 +26,15 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+.controlPaneOptions {
+  padding: 24px;
+  padding-top: 0;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.paddingSpacer {
+  display: inline-block;
 }
